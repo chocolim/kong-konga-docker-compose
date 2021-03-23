@@ -15,7 +15,10 @@ Four containers:
 ```bash
 docker-compose up -d
 ```
-
+## Configure the connection for Konga
+* Go to http://localhost:1337 to access Konga
+* Setup your admin account
+* Configure the connection to kong using http://kong:8001/
 
 ## Configure https
 

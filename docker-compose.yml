@@ -63,6 +63,8 @@ services:
     image: pantsel/konga
     ports:
       - 1337:1337
+    networks:
+      - kong-net      
     links:
       - kong:kong
     container_name: konga
